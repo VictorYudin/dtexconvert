@@ -1,0 +1,9 @@
+Installation Instructions
+*************************
+
+The shell commands:
+
+aclocal && autoconf && autoheader && automake --foreign --add-missing
+./configure && make && make install
+
+should configure, build, and install this package.
